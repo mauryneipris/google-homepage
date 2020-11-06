@@ -5,31 +5,18 @@ body {
   font-family: arial, sans-serif;
 }
 
-
-
-/* .searchbar_div {
-  display: flex;
-  height: 50px;
-
-} */
-
 #g_logo {
   padding-top: 150px;
   padding-bottom: 20px;
 
 }
 
-
 .image-container {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  
   
 }
-
-
-
-
 
 .searchbar-container {
   width: 575px;
@@ -50,12 +37,13 @@ body {
 input[type=text] {
   border: none;
   padding-top: 8px;
+  width: 90%;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
-  padding-top: 12px;
+  margin-top: 12px;
 }
 .submit-buttons {
   margin: 10px 4px;
@@ -101,26 +89,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
-
-
 footer {
   bottom: 0;
   position: fixed;
-  background-color: #f2f2f2;
   width: 100%;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.ul-left {
-  
-  
-}
-
-.ul-right {
-  
 }
 
 footer a {
