@@ -3,6 +3,7 @@ body {
   color: #222;
   background: #fff;
   font-family: arial, sans-serif;
+  margin: 0;
 }
 
 #g_logo {
@@ -19,6 +20,7 @@ body {
 }
 
 .searchbar-container {
+  display: flex;
   width: 575px;
   height: 40px;
   margin: 0 auto;
@@ -34,9 +36,9 @@ body {
   color:rgb(160, 160, 160);
 }
 
-input[type=text] {
+input {
   border: none;
-  padding-top: 8px;
+  
   width: 90%;
 }
 
