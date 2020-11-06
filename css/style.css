@@ -1,49 +1,76 @@
-.center {
-  display: block;
-  text-align: -webkit-center;
-}
 
 body {
   color: #222;
   background: #fff;
   font-family: arial, sans-serif;
 }
+
+
+
+/* .searchbar_div {
+  display: flex;
+  height: 50px;
+
+} */
+
 #g_logo {
   padding-top: 150px;
   padding-bottom: 20px;
-  height: 92px;
-  width: 272px;
+
 }
-.searchbar_div {
+
+
+.image-container {
   display: flex;
-  height: 50px;
-  
+  justify-content: center;
+  padding: 20px;
   
 }
 
-#search {
+
+
+
+
+.searchbar-container {
   width: 575px;
-  height: 30px;
+  height: 40px;
   margin: 0 auto;
-  padding-top: 6px;
-  position: relative;
   border: 1px solid #dfe1e5;
-  box-shadow: 1px 1px 3px 1px #ccc;
   border-radius: 24px;
-  
-  
+}
+.searchbar-container:hover {
+  box-shadow: 1px 1px 3px 1px #ccc;
+} 
+
+.icon {
+  padding: 12px;
+  color:rgb(160, 160, 160);
 }
 
+input[type=text] {
+  border: none;
+  padding-top: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
 .submit-buttons {
   margin: 10px 4px;
-  padding: 0 16px;
+  padding: 4px 20px;
   font-size: 14px;
   line-height: 27px;
   color: #5F6368;
-  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
+}
+
+.submit-buttons:hover {
+  border: 1px solid #cdcecf;
+  background-color: #f8f8f8;
 }
 
 ul {
@@ -51,40 +78,58 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-li {
-  display: inline;
+  display: flex;
+  align-items: center;
   
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: .9em;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li a:hover {
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 1em;
+  padding: 10px 12px;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
 
-footer nav ul li {
-  margin: 10px;
-  padding: 5px;
-}
-.nav-right {
-  float: right;
-  margin: 10px;
-}
 
-.nav-left {
-  float: left;
-  margin: 10px;
-}
+
 
 footer {
   bottom: 0;
   position: fixed;
   background-color: #f2f2f2;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ul-left {
+  
+  
+}
+
+.ul-right {
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: #5f6368;
+  display: block;
+  padding: 10px 12px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
